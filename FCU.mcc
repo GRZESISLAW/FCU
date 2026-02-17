@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs />
+  <inputs>
+    <config guid="bd2291bc-5202-4374-80a9-14b7fdc1a1d1">
+      <active>true</active>
+      <description>SPD knob</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="spd" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_SPD_DEC)" presetId="f9d5d71f-3666-40a5-9e44-e6fec542a04f" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_SPD_INC)" presetId="a433d835-3607-44bc-9ede-8c87ae961510" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="adc46cf1-2f07-4cb7-96d5-c1cc9ec6f640">
+      <active>true</active>
+      <description>HDG knob</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="hdg" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_HDG_DEC)" presetId="57db72d2-69b6-4337-beb5-7e42ebe410dc" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_HDG_INC)" presetId="c7363c64-c741-486e-827b-ebc6d4309401" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b9750941-990b-4d30-a60e-1781960afc19">
+      <active>true</active>
+      <description>ALT knob</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="alt" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_ALT_DEC)" presetId="9f73f3de-674b-4c08-89ed-fd059edc7940" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_ALT_INC)" presetId="719ed516-4968-4d0c-ae80-339c1d2f68ab" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4d18c5e6-c844-4a92-8cfe-d7410dc98912">
+      <active>true</active>
+      <description>VS knob</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="vs" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_VS_DEC)" presetId="74f8df8a-947f-4e22-9bb3-2d8791ac61c9" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_VS_INC)" presetId="7ce91ad6-ec16-4a74-81b4-23cf282b26b3" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3604fa42-b7d8-4784-8007-c0b618891d04">
+      <active>true</active>
+      <description>ap1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="AP1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_AP_1_PUSH)" presetId="a8a8d1ce-b870-4014-8448-5b1f47ae912b" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="67d078ec-a593-46d4-a603-600bcd4be048">
+      <active>true</active>
+      <description>APPR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="APPR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_APPR_PUSH)" presetId="94649026-320b-4ca9-b928-42ac184806cb" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="43a46a4e-26bf-4b1b-9cae-ddd542059a10">
+      <active>true</active>
+      <description>ATHR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="ATHR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_ATHR_PUSH)" presetId="41251aab-3b55-42c8-a761-e819e20eed77" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="078d1ac1-23ea-4244-b9ff-9275c9c556f4">
+      <active>true</active>
+      <description>AP2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="AP2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_AP_2_PUSH)" presetId="2ea98ea3-d05d-45e1-93ca-f7447f29ce62" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f99564ff-e5f3-429d-8702-74225d09dbe4">
+      <active>true</active>
+      <description>SPD knob push</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="SPD_push" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_SPD_PULL)" presetId="347056d3-68a6-4af3-9032-bc37bab51d49" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3faecead-2944-46db-bf84-fa17dc7e31d4">
+      <active>true</active>
+      <description>VS knob push</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="VS_push" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_VS_PULL)" presetId="87c96946-b7ab-4e22-9c10-981e7a0cf353" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9850d492-cefb-4363-b108-82496b049551">
+      <active>true</active>
+      <description>HDG knob push</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="HDG_push" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_HDG_PULL)" presetId="73967ccf-e9c7-49df-8119-5e50d315d3af" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b64aa0d8-db48-4512-b3c4-480951d3f01d">
+      <active>true</active>
+      <description>ALT knob push </description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-5GF-B49" name="ALT_push" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:A32NX.FCU_ALT_PULL)" presetId="35f4a312-defb-4a06-9b4b-d238eee2ad3e" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
